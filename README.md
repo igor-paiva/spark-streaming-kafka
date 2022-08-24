@@ -9,79 +9,57 @@ Para executar será necessário ter instalado o `docker` e `docker-compose`.
 ### Iniciar os containers
 
 ```
-docker-compose up
+bash start.sh
+
+# caso a rede do docker já exista a mensagem "Error response from daemon: network with name spark-cluster already exists" vai ser imprimida, porém não é um erro.
 ```
 
-### Versão local
-
-#### Iniciar o master
-
-Em um novo terminal entre no container do master:
+Os containers sobem em modo *detach*, portanto caso queira ver os logs dos containers utilize:
 
 ```
-docker exec -it spark_kafka_master_1 bash
+docker-compose logs -f
 ```
 
-E inicie-o:
+### Iniciar o master
+
+Será necessário iniciar o spark master:
 
 ```
-bash spark-3.1.3-bin-hadoop3.2/sbin/start-master.sh
+docker exec -it spark_kafka_master_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-master.sh
 ```
 
-#### Iniciar os workers
+### Iniciar os workers
 
-Em um novo terminal entre no container do worker 1:
-
-```
-docker exec -it spark_kafka_spark-worker-1_1 bash
-
-# dentro do container
-bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh spark://master:7077
-```
-
-Em um novo terminal entre no container do worker 2:
+Para iniciar os *workers*:
 
 ```
-docker exec -it spark_kafka_spark-worker-2_1 bash
-
-# dentro do container
-bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh spark://master:7077
+docker exec -it spark_kafka_spark-worker-1_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh -m 1G -c 1 spark://master:7077 && docker exec -it spark_kafka_spark-worker-2_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh -m 1G -c 1 spark://master:7077
 ```
 
-#### Iniciar o zookeeper
-
-```
-cd kafka_2.13-3.2.1
-
-bash bin/zookeeper-server-start.sh config/zookeer.properties
-```
-
-#### Iniciar o servidor kafka
-
-```
-cd kafka_2.13-3.2.1
-
-bash bin/kafka-server-start.sh config/server.properties
-```
-
-#### Criar o tópico
+<!-- ### Criar o tópico
 
 ```
 cd kafka_2.13-3.2.1
 
 bin/kafka-topics.sh --create --topic sentences --bootstrap-server kafka-server:9092
-```
-
-# ------
-# Faltou finalizar
-# ------
-
-<!-- #### Executar criação
-
-```
 ``` -->
 
-#### Submeter o problema
+### Iniciar o publisher
+
+O publisher envia eventos para o servidor Kafka a cada meio segundo (0,5 segundo) com um paragrafo de texto.
+
+Em um novo terminal (a chada é blocante):
+
+```
+docker exec -it spark_kafka_socket_1 bash
+
+# dentro do container
+python3 -u main.py
+```
+
+Para encerrar `CTRL + C`
+
+### Submeter o problema
 
 Em um novo terminal entre no container do submit:
 
@@ -89,10 +67,18 @@ Em um novo terminal entre no container do submit:
 docker exec -it spark_kafka_submit_1 bash
 ```
 
-Para submeter o problema:
+Para submeter o problema utilize um dos comandos abaixo, o arquivo txt no final é para onde os resultados serão salvos.
+
+#### Local
+
+Para o modo local não é necessário iniciar o spark master e workers.
 
 ```
-# pode ser qualquer arquivo
-
 ./spark-3.1.3-bin-hadoop3.2/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 local.py > results.txt
+```
+
+#### Cluster
+
+```
+./spark-3.1.3-bin-hadoop3.2/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 cluster.py > results.txt
 ```
