@@ -1,0 +1,471 @@
+:: loading settings :: url = jar:file:/submit/spark-3.1.3-bin-hadoop3.2/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+-------------------------------------------
+Batch: 0
+-------------------------------------------
+-------------------------------------------
+Batch: 0
+-------------------------------------------
+-------------------------------------------
+Batch: 0
+-------------------------------------------
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++-------------+
+| Start with R|
++-------------+
+|      Request|
+|  Religiously|
+|       Rail),|
+|Reunification|
+|        Roman|
+|     Romanche|
+|        River|
+|   Roosevelt,|
+|         Reef|
+|       Ranks,|
+|   Recognises|
+|   Restaurant|
++-------------+
+
++--------------------------------+
+|Words as Words with 6 characters|
++--------------------------------+
+|                          number|
+|                          taking|
+|                          Groups|
+|                          Proof,|
+|                          formed|
+|                          placed|
+|                          ethnic|
+|                          coming|
+|                          passes|
+|                          Lions,|
+|                          status|
+|                          within|
+|                          birds,|
+|                          Texas.|
+|                          around|
+|                          within|
+|                          island|
+|                          water.|
+|                          queen,|
+|                          Rail),|
+|                          (8th),|
+|                          social|
+|                          tribes|
+|                          united|
+|                          Clovis|
+|                          (1991.|
+|                          little|
+|                          clouds|
+|                          making|
+|                          Amazon|
+|                          trains|
+|                          narrow|
+|                          plate.|
+|                          Earth.|
+|                          Arauco|
+|                          market|
+|                          others|
+|                          select|
+|                          Markup|
+|                          enough|
+|                          Spain.|
+|                          (state|
+|                          before|
+|                          works,|
+|                          export|
+|                          divine|
+|                          desert|
+|                          oases.|
+|                          posted|
+|                          rivers|
+|                          times,|
+|                          today,|
+|                          longer|
+|                          enough|
+|                          peaked|
+|                          Forced|
+|                          Within|
+|                          future|
+|                          system|
+|                          social|
+|                          Ranks,|
+|                          young.|
+|                          allows|
+|                          living|
+|                          flight|
+|                          create|
+|                          retain|
+|                          global|
+|                          after.|
+|                          square|
+|                          alaska|
+|                          Center|
+|                          global|
+|                          (san..|
+|                          found.|
+|                          knicks|
+|                          street|
+|                          layout|
+|                          europe|
+|                          causes|
+|                          around|
+|                          Merges|
+|                          kbit/s|
+|                          using.|
+|                          middle|
+|                          access|
+|                          career|
+|                          coast,|
+|                          peirce|
+|                          bottom|
+|                          lyman.|
+|                          2006).|
+|                          "games|
+|                          aren't|
+|                          taking|
+|                          energy|
+|                          Andes;|
+|                          Arctic|
+|                          spain.|
+|                          harris|
+|                          style.|
+|                          early.|
+|                          hours.|
+|                          assess|
+|                          around|
+|                          before|
+|                          other.|
+|                          wiring|
+|                          cable,|
+|                          lines.|
+|                          season|
+|                          ethics|
+|                          spoken|
+|                          earned|
+|                          forces|
+|                          today,|
+|                          moving|
+|                          suape,|
+|                          manaus|
+|                          Impact|
+|                          social|
+|                          arrive|
+|                          rather|
+|                          exerts|
+|                          field.|
+|                          simply|
+|                          differ|
+|                          dmitry|
+|                          years.|
+|                          parrot|
+|                          french|
+|                          nature|
+|                          (black|
+|                          serve.|
+|                          Cattle|
+|                          vegan.|
+|                          county|
+|                          Point,|
+|                          (große|
+|                          arabic|
+|                          design|
+|                          refers|
+|                          Greeks|
+|                          Casino|
+|                          three.|
+|                          costco|
+|                          (#22),|
+|                          Linked|
+|                          random|
+|                          forms:|
+|                          person|
+|                          rates.|
+|                          follow|
+|                          octet.|
+|                          garnet|
+|                          valley|
+|                          banks.|
+|                          temple|
+|                          chile;|
++--------------------------------+
+
++--------------+
+|  Start with S|
++--------------+
+|       Sixteen|
+|  Strigopoidea|
+|   Semi-merged|
+|       Smaller|
+|     Suspended|
+|   Sarmiento's|
+|         Spain|
+|           San|
+|           San|
+|   Suggestions|
+|         Short|
+|        Spain.|
+|       Spanish|
+|         Santo|
+|      Simplest|
+|         Smith|
+|      Species.|
+|      Somewhat|
+|      Services|
+|Systematically|
+|       Singing|
+|      Sunlight|
+|       States,|
++--------------+
+
++---------------------------------+
+|Words as Words with 11 characters|
++---------------------------------+
+|                      arthropods,|
+|                      Semi-merged|
+|                      Religiously|
+|                      diversified|
+|                      Valenzuela.|
+|                      journalists|
+|                      amphibians,|
+|                      contributed|
+|                      Sarmiento's|
+|                      constitutes|
+|                      fundamental|
+|                      immigration|
+|                      expeditions|
+|                      Aboriginals|
+|                      Suggestions|
+|                      protection,|
+|                      maintaining|
+|                      maintenance|
+|                      assignments|
+|                      Immigrants.|
+|                      Classifying|
+|                      Hermosillo,|
+|                      statistical|
+|                      temperature|
+|                      personality|
+|                      disability,|
+|                      post-modern|
+|                      approaching|
+|                      depressions|
+|                      rationalist|
+|                      continental|
+|                      information|
+|                      Necessarily|
+|                      controlling|
+|                      descartes..|
+|                      equivalent.|
+|                      portuguese,|
+|                      (vertebral.|
+|                      Ekalaka—the|
+|                      accelerated|
+|                      programmers|
+|                      fundamental|
+|                      scientific.|
+|                      difference.|
+|                      physiology,|
+|                      population.|
+|                      corporation|
+|                      traditions,|
+|                      properties.|
+|                      structures.|
+|                      traditions,|
+|                      association|
+|                      atmosphere.|
++---------------------------------+
+
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++------------+
+|Start with P|
++------------+
+|      Proof,|
+|       Park,|
+|       Plain|
+|       Paris|
+|   Pregnancy|
+|   Prevalent|
+|       Part,|
+|     Pacific|
+|       Plate|
+|        Park|
+|       Plant|
+|       Paper|
+|    Promoted|
+|   Potential|
+|     Parrot.|
+|  Particular|
+|     Period;|
+|    Producer|
+|      Point,|
+|       Polar|
++------------+
+
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++--------------------------------+
+|Words as Words with 8 characters|
++--------------------------------+
+|                        Japanese|
+|                        attaches|
+|                        deposits|
+|                        estimate|
+|                        approach|
+|                        Flathead|
+|                        exchange|
+|                        Fernando|
+|                        charges.|
+|                        Frankish|
+|                        addition|
+|                        accounts|
+|                        cultured|
+|                        Facundo.|
+|                        emission|
+|                        species.|
+|                        European|
+|                        bordello|
+|                        Northern|
+|                        control.|
+|                        Germanic|
+|                        Frankish|
+|                        vertical|
+|                        Howard's|
+|                        powerful|
+|                        elements|
+|                        inherent|
+|                        magnetic|
+|                        activity|
+|                        requires|
+|                        minutes.|
+|                        reported|
+|                        sidereal|
+|                        million,|
+|                        provides|
+|                        included|
+|                        creative|
+|                        Romanche|
+|                        Flathead|
+|                        entering|
+|                        Ceremony|
+|                        Tocobaga|
+|                        century.|
+|                        Iceland,|
+|                        economic|
+|                        Mexicali|
+|                        priority|
+|                        medieval|
+|                        includes|
+|                        Creative|
+|                        Promoted|
+|                        Simplest|
+|                        however,|
+|                        included|
+|                        Interior|
+|                        physical|
+|                        shelves.|
+|                        atlantic|
+|                        vehicles|
+|                        Addition|
+|                        required|
+|                        occupied|
+|                        capital.|
+|                        america.|
+|                        exomoons|
+|                        orbiting|
+|                        apparent|
+|                        decision|
+|                        Species.|
+|                        century,|
+|                        becoming|
+|                        primary.|
+|                        problems|
+|                        external|
+|                        ectoderm|
+|                        services|
+|                        arêtes..|
+|                        stimulus|
+|                        Somewhat|
+|                        limited.|
+|                        Services|
+|                        bulliet,|
+|                        richard;|
+|                        johnson,|
+|                        spending|
+|                        governed|
+|                        buffalo,|
+|                        factors.|
+|                        Benjamin|
+|                        "federal|
+|                        standard|
+|                        (frames)|
+|                        (coaxial|
+|                        workers.|
+|                        Sunlight|
+|                        kermadec|
+|                        islands.|
+|                        Earliest|
+|                        Incident|
+|                        response|
+|                        "without|
+|                        history,|
+|                        european|
+|                        Producer|
+|                        backbone|
+|                        Airlines|
+|                        energies|
+|                        constant|
+|                        culture,|
+|                        depended|
+|                        specific|
+|                        electric|
+|                        further,|
+|                        Explorer|
+|                        Abdicate|
+|                        hundreds|
+|                        kangaroo|
+|                        adoption|
+|                        granting|
+|                        montana,|
+|                        atlantic|
+|                        ranching|
+|                        (whereby|
+|                        observed|
+|                        Freiburg|
+|                        However,|
+|                        European|
+|                        alphabet|
+|                        regulate|
+|                        producer|
+|                        accounts|
+|                        replaced|
+|                        program,|
+|                        latter..|
+|                        virginia|
++--------------------------------+
+
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++--------------+
+|Total of words|
++--------------+
+|          1628|
++--------------+
+
+Traceback (most recent call last):
+  File "/submit/local.py", line 89, in <module>
+    query.awaitTermination()
+  File "/submit/spark-3.1.3-bin-hadoop3.2/python/lib/pyspark.zip/pyspark/sql/streaming.py", line 101, in awaitTermination
+  File "/submit/spark-3.1.3-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1303, in __call__
+  File "/submit/spark-3.1.3-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1033, in send_command
+  File "/submit/spark-3.1.3-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1200, in send_command
+  File "/usr/local/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/submit/spark-3.1.3-bin-hadoop3.2/python/lib/pyspark.zip/pyspark/context.py", line 285, in signal_handler
+KeyboardInterrupt
