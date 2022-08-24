@@ -6,12 +6,18 @@ Para executar será necessário ter instalado o `docker` e `docker-compose`.
 
 ## Como executar
 
-### Iniciar os containers
+### Configuração
+
+Para instalar todas as dependências e criar todos os elementos necessários utilize o comando abaixo:
 
 ```
-bash start.sh
+bash setup.sh
+```
 
-# caso a rede do docker já exista a mensagem "Error response from daemon: network with name spark-cluster already exists" vai ser imprimida, porém não é um erro.
+Após ter rodado o *setup* com sucesso para iniciar novamente só é necessário subir os containers e seguir os demais passos:
+
+```
+docker-compose up -d
 ```
 
 Os containers sobem em modo *detach*, portanto caso queira ver os logs dos containers utilize:
