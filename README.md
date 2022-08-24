@@ -1,18 +1,20 @@
 # Parte 2 - Spark Streaming contabilizando palavras via Apache Kafka
 
+Igor Batista Paiva - 18/0018728
+
 ## Sobre
 
 Para executar será necessário ter instalado o `docker` e `docker-compose`.
 
-## Como executar
-
-### Configuração
+## Configuração
 
 Para instalar todas as dependências e criar todos os elementos necessários utilize o comando abaixo:
 
 ```
 bash setup.sh
 ```
+
+## Como executar
 
 Após ter rodado o *setup* com sucesso para iniciar novamente só é necessário subir os containers e seguir os demais passos:
 
@@ -41,14 +43,6 @@ Para iniciar os *workers*:
 ```
 docker exec -it spark_kafka_spark-worker-1_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh -m 1G -c 1 spark://master:7077 && docker exec -it spark_kafka_spark-worker-2_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh -m 1G -c 1 spark://master:7077
 ```
-
-<!-- ### Criar o tópico
-
-```
-cd kafka_2.13-3.2.1
-
-bin/kafka-topics.sh --create --topic sentences --bootstrap-server kafka-server:9092
-``` -->
 
 ### Iniciar o publisher
 
