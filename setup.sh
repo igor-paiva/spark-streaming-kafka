@@ -21,6 +21,11 @@ echo ""
 
 docker network create spark-kafka-cluster || true
 
+echo "Overwriting kafka properties"
+echo ""
+
+cp kafka_properties/* kafka_2.13-3.2.1/config/
+
 echo "Initializing containers"
 echo ""
 
