@@ -33,7 +33,7 @@ docker-compose logs -f
 Será necessário iniciar o spark master:
 
 ```
-docker exec -it spark_kafka_master_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-master.sh
+docker exec -it spark_kafka_spark-master_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-master.sh
 ```
 
 ### Iniciar os workers
@@ -41,30 +41,30 @@ docker exec -it spark_kafka_master_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-m
 Para iniciar os *workers*:
 
 ```
-docker exec -it spark_kafka_spark-worker-1_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh -m 1G -c 1 spark://master:7077 && docker exec -it spark_kafka_spark-worker-2_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh -m 1G -c 1 spark://master:7077
+docker exec -it spark_kafka_spark-worker-1_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh -m 1G -c 1 spark://spark-master:7077 && docker exec -it spark_kafka_spark-worker-2_1 bash spark-3.1.3-bin-hadoop3.2/sbin/start-worker.sh -m 1G -c 1 spark://spark-master:7077
 ```
 
 ### Iniciar o publisher
 
 O publisher envia eventos para o servidor Kafka a cada meio segundo (0,5 segundo) com um paragrafo de texto.
 
-Em um novo terminal (a chada é blocante):
+Em um novo terminal (a chamada é blocante):
 
 ```
-docker exec -it spark_kafka_socket_1 bash
+docker exec -it spark_kafka_kafka-publisher_1 bash
 
 # dentro do container
 python3 -u main.py
 ```
 
-Para encerrar `CTRL + C`
+Para encerrar: `CTRL + C`.
 
 ### Submeter o problema
 
-Em um novo terminal entre no container do submit:
+Em um novo terminal entre no container do spark driver:
 
 ```
-docker exec -it spark_kafka_submit_1 bash
+docker exec -it spark_kafka_spark-driver_1 bash
 ```
 
 Para submeter o problema utilize um dos comandos abaixo, o arquivo txt no final é para onde os resultados serão salvos.

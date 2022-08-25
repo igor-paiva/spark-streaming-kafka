@@ -1,12 +1,5 @@
-import sys
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import explode, split, initcap, count, length
-
-# ./spark-3.1.3-bin-hadoop3.2/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.3 local.py > results.txt
-# --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.3
-# --packages org.apache.spark:spark-sql-kafka-0-10_2.12:V.V.V
-# V.V.V => spark version
-
 
 spark = (
     SparkSession.builder.appName("StreamingWordCountKafka")
@@ -63,7 +56,6 @@ size_11 = (
     .filter("length == 11")
     .select(words.word.alias("Words as Words with 11 characters"))
 )
-
 
 data_frames = [
     total_words,

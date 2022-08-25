@@ -1,15 +1,10 @@
-from pyspark import SparkConf
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import explode, split, initcap, count, length
 
-# ./spark-3.1.3-bin-hadoop3.2/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.3 local.py > results.txt
-# --packages org.apache.spark:spark-sql-kafka-0-10_2.12:V.V.V
-# V.V.V => spark version
-
 spark = (
-    SparkSession.builder.master("spark://master:7077")
+    SparkSession.builder.master("spark://spark-master:7077")
     .appName("StreamingWordCountKafkaDistributed")
-    .config("spark.driver.host", "submit")
+    .config("spark.driver.host", "spark-driver")
     # .config("spark.driver.port", "5005")
     .config("spark.dynamicAllocation.enabled", "false")
     .config("spark.shuffle.service.enabled", "false")
@@ -72,7 +67,6 @@ size_11 = (
     .filter("length == 11")
     .select(words.word.alias("Words as Words with 11 characters"))
 )
-
 
 data_frames = [
     total_words,

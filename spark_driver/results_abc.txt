@@ -1,0 +1,953 @@
+:: loading settings :: url = jar:file:/spark-driver/spark-3.1.3-bin-hadoop3.2/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+-------------------------------------------
+Batch: 0
+-------------------------------------------
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++------------+
+|Start with S|
++------------+
+|       Sbtvd|
+|  Statistics|
+|   Similarly|
+|   Sub-topic|
++------------+
+
++---------------+
+|   Start with R|
++---------------+
+|    Rainforest,|
+|      Rationale|
+|Responsibility,|
+|        Rights;|
++---------------+
+
+-------------------------------------------
+Batch: 0
+-------------------------------------------
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++------------+
+|Start with P|
++------------+
+|     People.|
+|     Proofs.|
+|    Probably|
+|   Preferred|
++------------+
+
++--------------------------------+
+|Words as Words with 8 characters|
++--------------------------------+
+|                        elements|
+|                        century.|
+|                        problems|
+|                        sounder.|
+|                        Incoming|
+|                        Consider|
+|                        disease,|
+|                        kennedy.|
+|                        speakers|
+|                        existing|
+|                        however,|
+|                        sinister|
+|                        standard|
+|                        autonomy|
+|                        regional|
+|                        meaning,|
+|                        storing,|
+|                        combined|
+|                        capacity|
+|                        quincunx|
+|                        pattern.|
+|                        advisors|
+|                        working,|
+|                        authors.|
+|                        example,|
+|                        therapy.|
+|                        recorded|
+|                        orlando)|
+|                        majority|
+|                        unstable|
+|                        showers.|
+|                        802.11's|
+|                        all-time|
+|                        egyptian|
+|                        chemical|
+|                        weapons.|
+|                        military|
+|                        continue|
+|                        tatjana.|
+|                        Manifest|
+|                        markets.|
+|                        serious.|
+|                        Probably|
+|                        germany,|
+|                        obtained|
+|                        schools.|
+|                        Linguist|
+|                        festival|
+|                        illinois|
+|                        surgeons|
+|                        Cultures|
+|                        however,|
+|                        chemical|
+|                        captured|
+|                        region's|
+|                        degrees:|
+|                        focusing|
+|                        spanning|
+|                        cepeda..|
+|                        towering|
+|                        january.|
+|                        intserv,|
+|                        audience|
+|                        (similar|
+|                        maritime|
+|                        moderate|
+|                        between.|
+|                        present.|
+|                        gigantic|
+|                        includes|
+|                        station.|
++--------------------------------+
+
+-------------------------------------------
+Batch: 0
+-------------------------------------------
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++---------------------------------+
+|Words as Words with 11 characters|
++---------------------------------+
+|                      Rainforest,|
+|                      Encompassed|
+|                      chimborazo,|
+|                      influenced.|
+|                      brotherhood|
+|                      educational|
+|                      Boundaries.|
+|                      psychology.|
+|                      Emphasizing|
+|                      popularised|
+|                      Controlling|
+|                      supermodels|
+|                      settlement.|
+|                      (concretism|
+|                      cumuliform,|
+|                      biological.|
+|                      significant|
+|                      isochronous|
+|                      cyclotrons,|
+|                      unscripted,|
+|                      surrendered|
++---------------------------------+
+
++--------------------------------+
+|Words as Words with 6 characters|
++--------------------------------+
+|                          around|
+|                          summit|
+|                          mental|
+|                          muslim|
+|                          world.|
+|                          Berber|
+|                          making|
+|                          reject|
+|                          proper|
+|                          size..|
+|                          ezeiza|
+|                          pride.|
+|                          iupsys|
+|                          agreed|
+|                          having|
+|                          teeth;|
+|                          danish|
+|                          realm,|
+|                          powers|
+|                          allia,|
+|                          crisis|
+|                          where.|
+|                          egypt.|
+|                          policy|
+|                          since.|
+|                          openly|
+|                          assess|
+|                          modern|
+|                          Weekly|
+|                          Blogs:|
+|                          family|
+|                          rules,|
+|                          family|
+|                          family|
+|                          fronts|
+|                          single|
+|                          season|
+|                          record|
+|                          wins..|
+|                          travel|
+|                          shaped|
+|                          troops|
+|                          Winter|
+|                          spiral|
+|                          rights|
+|                          german|
+|                          beyond|
+|                          indian|
+|                          within|
+|                          needed|
+|                          unique|
+|                          august|
+|                          which.|
+|                          ocean;|
+|                          state,|
+|                          brazil|
+|                          duncan|
+|                          builds|
+|                          weekly|
+|                          based.|
+|                          little|
+|                          battle|
+|                          random|
+|                          notion|
+|                          offers|
+|                          day—is|
+|                          86,400|
+|                          solar.|
+|                          hybrid|
+|                          large.|
+|                          sports|
+|                          robots|
+|                          become|
+|                          known.|
+|                          bolita|
+|                          number|
+|                          ceased|
+|                          during|
++--------------------------------+
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++------------+
+|Start with S|
++------------+
+|        Sand|
+|       Site.|
+|     Safety,|
+|      Sweat,|
+|   Surrounds|
+|       Small|
++------------+
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++------------+
+|Start with R|
++------------+
+|      Relief|
++------------+
+
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++--------------+
+|Total of words|
++--------------+
+|           682|
++--------------+
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++------------+
+|Start with P|
++------------+
+|    Piranha.|
+|      People|
+|  Processes.|
+|      Plants|
+|  Portuguese|
+|      Public|
+|   Paraguay,|
+|    Produced|
+|         Pay|
+|    Premises|
++------------+
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++--------------------------------+
+|Words as Words with 8 characters|
++--------------------------------+
+|                        "climate|
+|                        viceroy.|
+|                        Piranha.|
+|                        physical|
+|                        involves|
+|                        wyoming.|
+|                        montana.|
+|                        bettong,|
+|                        maritime|
+|                        surgery,|
+|                        surgery,|
+|                        country.|
+|                        Observed|
+|                        agnostic|
+|                        (another|
+|                        lobbying|
+|                        systems.|
+|                        imperial|
+|                        nicolas.|
+|                        northern|
+|                        conducts|
+|                        directed|
+|                        although|
+|                        billings|
+|                        airports|
+|                        Orthodox|
+|                        flora-2.|
+|                        Electron|
+|                        usually.|
+|                        napoleon|
+|                        signals)|
+|                        national|
+|                        world's.|
+|                        research|
+|                        plethora|
+|                        museums,|
+|                        poulsen,|
+|                        historie|
+|                        Advanced|
+|                        national|
+|                        Produced|
+|                        pacifist|
+|                        example,|
+|                        evidence|
+|                        (during.|
+|                        century;|
+|                        Machines|
+|                        anglican|
+|                        America,|
+|                        greatest|
+|                        logging,|
+|                        everyday|
+|                        species,|
+|                        involves|
+|                        delivery|
+|                        delivery|
+|                        people..|
+|                        currents|
+|                        patterns|
+|                        cultural|
+|                        tequila.|
+|                        sources,|
+|                        however,|
+|                        Badarian|
+|                        electric|
+|                        numerous|
+|                        african.|
+|                        greeting|
+|                        honshu's|
+|                        specific|
+|                        famously|
+|                        products|
+|                        atlantic|
+|                        Premises|
+|                        adjacent|
+|                        regions.|
+|                        Volcanic|
+|                        response|
+|                        release.|
+|                        Regional|
+|                        children|
+|                        ancestry|
+|                        germany.|
+|                        edition,|
+|                        Stopping|
+|                        capitals|
+|                        includes|
+|                        theories|
+|                        decades,|
+|                        economic|
++--------------------------------+
+
++---------------------------------+
+|Words as Words with 11 characters|
++---------------------------------+
+|                      qualitative|
+|                      perspective|
+|                      geographic.|
+|                      microsoft's|
+|                      orthopedic.|
+|                      government,|
+|                      investments|
+|                      transition,|
+|                      restoration|
+|                      journalists|
+|                      Journalists|
+|                      themselves.|
+|                      resolution,|
+|                      sandwiches,|
+|                      influenced.|
+|                      discredited|
+|                      programming|
+|                      world-class|
+|                      grundtræk",|
+|                      sandstone..|
+|                      differences|
+|                      amendments.|
+|                      newspapers,|
+|                      established|
+|                      large-scale|
+|                      immigration|
+|                      transferred|
+|                      fertilizers|
+|                      functional.|
++---------------------------------+
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++--------------------------------+
+|Words as Words with 6 characters|
++--------------------------------+
+|                          phrase|
+|                          house.|
+|                          bloom.|
+|                          arctic|
+|                          always|
+|                          occurs|
+|                          health|
+|                          bases.|
+|                          Times,|
+|                          simply|
+|                          (terra|
+|                          levels|
+|                          model,|
+|                          august|
+|                          People|
+|                          lower.|
+|                          second|
+|                          (about|
+|                          Relief|
+|                          visits|
+|                          plants|
+|                          1990s.|
+|                          inland|
+|                          Plants|
+|                          greece|
+|                          around|
+|                          during|
+|                          ocean.|
+|                          banned|
+|                          parrot|
+|                          trade,|
+|                          mexico|
+|                          reside|
+|                          around|
+|                          Grid's|
+|                          europe|
+|                          showed|
+|                          marius|
+|                          adolfo|
+|                          island|
+|                          marcus|
+|                          layer,|
+|                          Public|
+|                          news..|
+|                          (tests|
+|                          hewitt|
+|                          argued|
+|                          "terra|
+|                          global|
+|                          (ed.),|
+|                          aarhus|
+|                          Sweat,|
+|                          harder|
+|                          voted.|
+|                          exist.|
+|                          lumber|
+|                          (may),|
+|                          normal|
+|                          larger|
+|                          bodies|
+|                          water,|
+|                          making|
+|                          island|
+|                          trucks|
+|                          river.|
+|                          traits|
+|                          pamela|
+|                          parent|
+|                          though|
+|                          other.|
+|                          common|
+|                          extent|
+|                          genes.|
+|                          mother|
+|                          carry.|
+|                          fuchs,|
+|                          pavlov|
+|                          united|
+|                          echl's|
+|                          12,742|
+|                          (7,918|
+|                          direct|
+|                          center|
+|                          origin|
+|                          1939..|
+|                          Levels|
+|                          lisbon|
+|                          thwart|
+|                          recent|
+|                          france|
+|                          animal|
+|                          Though|
+|                          danish|
+|                          soccer|
+|                          tampa,|
+|                          eighty|
+|                          silver|
+|                          making|
++--------------------------------+
+
++------------+
+|Start with S|
++------------+
+|    Stopping|
+|     Shadows|
+|  Similarity|
++------------+
+
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++------------+
+|Start with R|
++------------+
+|    Regional|
++------------+
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++--------------+
+|Total of words|
++--------------+
+|          1810|
++--------------+
+
+-------------------------------------------
+Batch: 2
+-------------------------------------------
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++--------------------------------+
+|Words as Words with 8 characters|
++--------------------------------+
+|                        Chlorine|
+|                        soldiers|
+|                        formed..|
+|                        million.|
+|                        governor|
+|                        santiago|
+|                        vertical|
+|                        vargas..|
+|                        Detailed|
+|                        novelty.|
+|                        covering|
++--------------------------------+
+
++------------+
+|Start with P|
++------------+
+|       Power|
++------------+
+
+-------------------------------------------
+Batch: 2
+-------------------------------------------
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++--------------------------------+
+|Words as Words with 6 characters|
++--------------------------------+
+|                          former|
+|                          kaine.|
+|                          doctor|
+|                          there.|
+|                          1980s,|
+|                          traces|
+|                          rugged|
+|                          sector|
+|                          tonnes|
+|                          Signal|
+|                          middle|
+|                          orders|
+|                          during|
+|                          these.|
+|                          canada|
+|                          city's|
+|                          parks;|
+|                          nearly|
+|                          unfair|
+|                          Mainly|
+|                          honors|
++--------------------------------+
+
++---------------------------------+
+|Words as Words with 11 characters|
++---------------------------------+
+|                      complexity.|
+|                      conditions.|
+|                      anglo-dutch|
+|                      suggested."|
+|                      information|
+|                      information|
+|                      Immigration|
+|                      constrained|
+|                      performance|
+|                      scientific.|
++---------------------------------+
+
+-------------------------------------------
+Batch: 3
+-------------------------------------------
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++------------+
+|Start with R|
++------------+
+|     Raymond|
++------------+
+
++--------------+
+|  Start with S|
++--------------+
+|        Signal|
+|Second-largest|
++--------------+
+
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++--------------+
+|Total of words|
++--------------+
+|          1969|
++--------------+
+
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++------------+
+|Start with P|
++------------+
+|     Popular|
+|       Pulse|
++------------+
+
+-------------------------------------------
+Batch: 3
+-------------------------------------------
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++--------------------------------+
+|Words as Words with 6 characters|
++--------------------------------+
+|                          Clouds|
+|                          allows|
+|                          secure|
+|                          Energy|
+|                          year..|
+|                          pascal|
+|                          scarce|
+|                          health|
+|                          glass,|
+|                          field,|
+|                          showed|
+|                          state,|
+|                          robots|
+|                          around|
+|                          spinal|
++--------------------------------+
+
++--------------------------------+
+|Words as Words with 8 characters|
++--------------------------------+
+|                        gazette-|
+|                        overseas|
+|                        europe's|
+|                        frontier|
+|                        example.|
+|                        becomes,|
+|                        reported|
+|                        couperin|
+|                        gaspard.|
+|                        theories|
+|                        meaning,|
+|                        theories|
+|                        ancient.|
+|                        michelin|
+|                        rainfall|
+|                        computer|
+|                        anxiety.|
+|                        relation|
++--------------------------------+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++------------+
+|Start with S|
++------------+
+|     Seattle|
++------------+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++---------------------------------+
+|Words as Words with 11 characters|
++---------------------------------+
+|                      territories|
+|                      invariably.|
+|                      fundamental|
+|                      conversion)|
+|                      existential|
++---------------------------------+
+
++------------+
+|Start with R|
++------------+
++------------+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++------------+
+|Start with P|
++------------+
++------------+
+
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++--------------+
+|Total of words|
++--------------+
+|          2178|
++--------------+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++--------------------------------+
+|Words as Words with 6 characters|
++--------------------------------+
+|                          media.|
+|                          future|
+|                          within|
+|                          baxter|
+|                          plural|
+|                          rivers|
+|                          leads.|
+|                          speed.|
+|                          widely|
+|                          magnet|
+|                          tampa.|
+|                          1885!.|
+|                          office|
+|                          View),|
+|                          1962).|
+|                          france|
+|                          recent|
++--------------------------------+
+
+-------------------------------------------
+Batch: 5
+-------------------------------------------
++--------------------------------+
+|Words as Words with 8 characters|
++--------------------------------+
+|                        opossums|
+|                        raccoons|
+|                        numbers.|
+|                        mobility|
+|                        swiftly.|
+|                        emotions|
+|                        research|
+|                        Systems.|
+|                        schools.|
+|                        workers.|
+|                        occupied|
+|                        slightly|
+|                        instead,|
+|                        however,|
+|                        computer|
+|                        hardware|
+|                        speakers|
+|                        probably|
+|                        national|
+|                        accepted|
+|                        quarters|
++--------------------------------+
+
++------------+
+|Start with R|
++------------+
+|        Rose|
++------------+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
+-------------------------------------------
+Batch: 5
+-------------------------------------------
+-------------------------------------------
+Batch: 5
+-------------------------------------------
++---------------------------------+
+|Words as Words with 11 characters|
++---------------------------------+
+|                      Individuals|
+|                      electricity|
+|                      generation.|
+|                      universally|
++---------------------------------+
+
++------------+
+|Start with S|
++------------+
+|    Systems.|
++------------+
+
++------------+
+|Start with P|
++------------+
+|   Prominent|
++------------+
+
+-------------------------------------------
+Batch: 6
+-------------------------------------------
++------------+
+|Start with R|
++------------+
++------------+
+
+-------------------------------------------
+Batch: 5
+-------------------------------------------
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++--------------+
+|Total of words|
++--------------+
+|          2401|
++--------------+
+
++--------------------------------+
+|Words as Words with 8 characters|
++--------------------------------+
+|                        invasion|
+|                        historic|
+|                        complete|
+|                        familiar|
+|                        further,|
+|                        american|
+|                        Suggests|
+|                        overseas|
+|                        svalbard|
++--------------------------------+
+
+-------------------------------------------
+Batch: 5
+-------------------------------------------
++--------------------------------+
+|Words as Words with 6 characters|
++--------------------------------+
+|                          behind|
+|                          simone|
+|                          aaberg|
+|                          (about|
+|                          Effect|
+|                          growth|
+|                          right,|
+|                          years.|
+|                          social|
+|                          media.|
+|                          towns.|
+|                          allied|
+|                          canada|
+|                          whole.|
+|                          system|
+|                          stand.|
+|                          allows|
+|                          soviet|
+|                          group,|
++--------------------------------+
+
+-------------------------------------------
+Batch: 5
+-------------------------------------------
+-------------------------------------------
+Batch: 6
+-------------------------------------------
+Traceback (most recent call last):
+  File "/spark-driver/cluster.py", line 92, in <module>
+    query.awaitTermination()
+  File "/spark-driver/spark-3.1.3-bin-hadoop3.2/python/lib/pyspark.zip/pyspark/sql/streaming.py", line 101, in awaitTermination
+  File "/spark-driver/spark-3.1.3-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1303, in __call__
+  File "/spark-driver/spark-3.1.3-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1033, in send_command
+  File "/spark-driver/spark-3.1.3-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1200, in send_command
+  File "/usr/local/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/spark-driver/spark-3.1.3-bin-hadoop3.2/python/lib/pyspark.zip/pyspark/context.py", line 285, in signal_handler
+KeyboardInterrupt
++---------------------------------+
+|Words as Words with 11 characters|
++---------------------------------+
+|                      centralists|
+|                      Presumption|
+|                      large-scale|
+|                      co-creation|
+|                      Significant|
+|                      originating|
+|                      performance|
+|                      Mendelsohn,|
+|                      amerindian.|
+|                      patriarchal|
++---------------------------------+
+
++------------+
+|Start with S|
++------------+
+| Significant|
+|    Suggests|
++------------+
+
