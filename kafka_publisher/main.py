@@ -11,7 +11,11 @@ if __name__ == "__main__":
     while True:
         try:
             message = gen.paragraph()
+
             producer.send("sentences", message.encode("utf-8"))
+
+            print(f"\n{message}\n")
+
             time.sleep(0.5)
         except KafkaError as e:
             print(e)
