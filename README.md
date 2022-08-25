@@ -74,11 +74,11 @@ Para submeter o problema utilize um dos comandos abaixo, o arquivo txt no final 
 Para o modo local não é necessário iniciar o spark master e workers.
 
 ```
-./spark-3.1.3-bin-hadoop3.2/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 local.py > results.txt
+./spark-3.1.3-bin-hadoop3.2/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.3 local.py > results.txt
 ```
 
 #### Cluster
 
 ```
-./spark-3.1.3-bin-hadoop3.2/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 cluster.py > results.txt
+./spark-3.1.3-bin-hadoop3.2/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.3 cluster.py > results.txt
 ```
