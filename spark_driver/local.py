@@ -36,8 +36,14 @@ words = lines.select(explode(split(lines.value, " ")).alias("word")).withColumn(
     "timestamp", lit(current_timestamp())
 )
 
-total_words = words.select(
-    current_timestamp().alias("Timestamp"), count(words.word).alias("Total of words")
+# current_timestamp().alias("Timestamp")
+total_words = words.select(count(words.word).alias("Total of words"))
+
+words_count = (
+    words.groupBy("word")
+    .count()
+    .select(col("word").alias("Word"), col("count").alias("Count"))
+    # current_timestamp().alias("Timestamp")
 )
 
 starts_with_s = (
@@ -90,6 +96,7 @@ size_11 = (
 
 data_frames = [
     total_words,
+    words_count,
     starts_with_s,
     starts_with_r,
     starts_with_p,
@@ -101,7 +108,12 @@ data_frames = [
 i = 1
 
 for df in data_frames:
-    query = df.writeStream.start(outputMode="update", format="console", truncate=False)
+    query = df.writeStream.start(
+        outputMode="update",
+        format="console",
+        truncate=False,
+        numRows=2147483647,  # to print as max rows as possible
+    )
 
     if i == len(data_frames):
         query.awaitTermination()
