@@ -1,5 +1,15 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import explode, split, initcap, count, length
+from pyspark.sql.functions import (
+    explode,
+    split,
+    initcap,
+    count,
+    length,
+    window,
+    col,
+    lit,
+    current_timestamp,
+)
 
 spark = (
     SparkSession.builder.appName("StreamingWordCountKafka")
@@ -8,7 +18,6 @@ spark = (
 )
 
 # spark_context = spark.sparkContext
-
 # spark_context.checkpoint("hdfs://hadoop:9000/checkpoint")
 
 lines = (
@@ -23,38 +32,60 @@ lines = (
     .load()
 )
 
-words = lines.select(explode(split(lines.value, " ")).alias("word"))
-
-total_words = words.select(count(words.word).alias("Total of words"))
-
-starts_with_s = words.select(initcap("word").alias("Start with S")).filter(
-    words.word.startswith("S")
+words = lines.select(explode(split(lines.value, " ")).alias("word")).withColumn(
+    "timestamp", lit(current_timestamp())
 )
 
-starts_with_r = words.select(initcap("word").alias("Start with R")).filter(
-    words.word.startswith("R")
+total_words = words.select(
+    current_timestamp().alias("Timestamp"), count(words.word).alias("Total of words")
 )
 
-starts_with_p = words.select(initcap("word").alias("Start with P")).filter(
-    words.word.startswith("P")
+starts_with_s = (
+    words.filter(initcap(words.word).startswith("S"))
+    .groupBy(window("timestamp", "3 seconds", "3 seconds"))
+    .count()
+    .select(col("window").alias("Window"), col("count").alias("Starts with S"))
+)
+
+starts_with_r = (
+    words.filter(initcap(words.word).startswith("R"))
+    .groupBy(window("timestamp", "3 seconds", "3 seconds"))
+    .count()
+    .select(col("window").alias("Window"), col("count").alias("Starts with R"))
+)
+
+starts_with_p = (
+    words.filter(initcap(words.word).startswith("P"))
+    .groupBy(window("timestamp", "3 seconds", "3 seconds"))
+    .count()
+    .select(col("window").alias("Window"), col("count").alias("Starts with P"))
 )
 
 size_6 = (
-    words.select(words.word, length(words.word).alias("length"))
-    .filter("length == 6")
-    .select(words.word.alias("Words as Words with 6 characters"))
+    words.filter(length(words.word) == 6)
+    .groupBy(window("timestamp", "3 seconds", "3 seconds"))
+    .count()
+    .select(
+        col("window").alias("Window"), col("count").alias("Words with 6 characters")
+    )
 )
 
 size_8 = (
-    words.select(words.word, length(words.word).alias("length"))
-    .filter("length == 8")
-    .select(words.word.alias("Words as Words with 8 characters"))
+    words.filter(length(words.word) == 8)
+    .groupBy(window("timestamp", "3 seconds", "3 seconds"))
+    .count()
+    .select(
+        col("window").alias("Window"), col("count").alias("Words with 8 characters")
+    )
 )
 
 size_11 = (
-    words.select(words.word, length(words.word).alias("length"))
-    .filter("length == 11")
-    .select(words.word.alias("Words as Words with 11 characters"))
+    words.filter(length(words.word) == 11)
+    .groupBy(window("timestamp", "3 seconds", "3 seconds"))
+    .count()
+    .select(
+        col("window").alias("Window"), col("count").alias("Words with 11 characters")
+    )
 )
 
 data_frames = [
@@ -70,12 +101,7 @@ data_frames = [
 i = 1
 
 for df in data_frames:
-    query = (
-        df.writeStream.option("numRows", 500)
-        .outputMode("update")
-        .format("console")
-        .start()
-    )
+    query = df.writeStream.start(outputMode="update", format="console", truncate=False)
 
     if i == len(data_frames):
         query.awaitTermination()
