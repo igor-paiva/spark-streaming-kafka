@@ -95,21 +95,23 @@ size_11 = (
 )
 
 data_frames = [
-    total_words,
-    words_count,
-    starts_with_s,
-    starts_with_r,
-    starts_with_p,
-    size_6,
-    size_8,
-    size_11,
+    (total_words, "complete"),
+    (words_count, "complete"),
+    (starts_with_s, "update"),
+    (starts_with_r, "update"),
+    (starts_with_p, "update"),
+    (size_6, "update"),
+    (size_8, "update"),
+    (size_11, "update"),
 ]
 
 i = 1
 
-for df in data_frames:
+for data in data_frames:
+    df, mode = data
+
     query = df.writeStream.start(
-        outputMode="update",
+        outputMode=mode,
         format="console",
         truncate=False,
         numRows=2147483647,  # to print as max rows as possible
