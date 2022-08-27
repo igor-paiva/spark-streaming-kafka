@@ -31,9 +31,11 @@ lines = (
     .load()
 )
 
-words = lines.select(
-    "timestamp", explode(split(lines.value, " ")).alias("word")
-).withColumn("word", regexp_replace(col("word"), r"[^a-zA-Z'-]", ""))
+words = (
+    lines.select("timestamp", explode(split(lines.value, " ")).alias("word"))
+    .withColumn("word", regexp_replace(col("word"), r"[^a-zA-Z'-]", ""))
+    .filter(length(col("word")) > 1)
+)
 
 total_words = words.select(count(words.word).alias("Total of words"))
 
