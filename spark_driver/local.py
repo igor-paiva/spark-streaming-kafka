@@ -7,6 +7,7 @@ from pyspark.sql.functions import (
     length,
     window,
     col,
+    regexp_replace,
 )
 
 spark = (
@@ -30,7 +31,9 @@ lines = (
     .load()
 )
 
-words = lines.select("timestamp", explode(split(lines.value, " ")).alias("word"))
+words = lines.select(
+    "timestamp", explode(split(lines.value, " ")).alias("word")
+).withColumn("word", regexp_replace(col("word"), r"[^a-zA-Z'-]", ""))
 
 total_words = words.select(count(words.word).alias("Total of words"))
 
