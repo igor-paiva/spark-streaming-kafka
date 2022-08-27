@@ -7,8 +7,6 @@ from pyspark.sql.functions import (
     length,
     window,
     col,
-    lit,
-    current_timestamp,
 )
 
 spark = (
@@ -32,18 +30,14 @@ lines = (
     .load()
 )
 
-words = lines.select(explode(split(lines.value, " ")).alias("word")).withColumn(
-    "timestamp", lit(current_timestamp())
-)
+words = lines.select("timestamp", explode(split(lines.value, " ")).alias("word"))
 
-# current_timestamp().alias("Timestamp")
 total_words = words.select(count(words.word).alias("Total of words"))
 
 words_count = (
     words.groupBy("word")
     .count()
     .select(col("word").alias("Word"), col("count").alias("Count"))
-    # current_timestamp().alias("Timestamp")
 )
 
 starts_with_s = (
