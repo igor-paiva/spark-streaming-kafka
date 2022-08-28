@@ -85,7 +85,11 @@ Para o modo local não é necessário iniciar o spark master e workers.
 
 ## Resultados
 
-Os resultados serão listados como tabelas com nomes de colunas descritivos no arquivo texto fornecido como saída para o comando `spark-submit`. Para ver o total de palavras processadas e quantidade de palavras no total é necessário ir ao final do arquivo e procurar por uma tabela com uma coluna "Total of words" e outra com as colunas "Word" e "Count".
+Os resultados serão listados como tabelas com nomes de colunas descritivos no arquivo texto fornecido como saída para o comando `spark-submit`.
+
+### Local e Cluster
+
+Para ver o total de palavras processadas e quantidade de palavras no total é necessário ir ao final do arquivo e procurar por uma tabela com uma coluna "Total of words" e outra com as colunas "Word" e "Count".
 
 Exemplo:
 
@@ -193,4 +197,136 @@ Batch: 0
 |{2022-08-27 01:41:54, 2022-08-27 01:41:57}|30                     |
 |{2022-08-27 01:42:00, 2022-08-27 01:42:03}|54                     |
 +------------------------------------------+-----------------------+
+```
+
+### K-means (Mlib)
+
+```
+Batch ID: 0
+
++--------------+
+|Total of words|
++--------------+
+|          2180|
++--------------+
+
+
+Cluster 0:
++----------------------------+
+|Number of words in cluster 0|
++----------------------------+
+|                         552|
++----------------------------+
+
++---------------+
+|Cluster 0 words|
++---------------+
+|        Equated|
+|       employer|
+|       revealed|
+|        similar|
+|        process|
+|       catholic|
+|       diffused|
+|      attendees|
+|       promoted|
+|        concept|
+|        alaskan|
+|        muslims|
+|      embedding|
+...
++---------------+
+
+
+Cluster 1:
++----------------------------+
+|Number of words in cluster 1|
++----------------------------+
+|                          29|
++----------------------------+
+
++--------------------+
+|     Cluster 1 words|
++--------------------+
+|     estates-general|
+|      free-of-charge|
+|       independently|
+|     object-oriented|
+|   census-designated|
+|     fastest-growing|
+|      Steel-skeleton|
+|   Controlled-access|
+|  telecommunications|
+...
++--------------------+
+
+
+Cluster 2:
++----------------------------+
+|Number of words in cluster 2|
++----------------------------+
+|                         902|
++----------------------------+
+
++---------------+
+|Cluster 2 words|
++---------------+
+|            led|
+|             by|
+|            the|
+|             in|
+|            two|
+|           mohn|
+|             By|
+|            lds|
+|            And|
+|           east|
+|            the|
+|            and|
+|            the|
+...
++---------------+
+
+
+Cluster 3:
++----------------------------+
+|Number of words in cluster 3|
++----------------------------+
+|                         211|
++----------------------------+
+
++---------------+
+|Cluster 3 words|
++---------------+
+|   afrocentrism|
+|     protestant|
+|   successfully|
+|     Procedural|
+|    Extravagant|
+|   problematize|
+...
++---------------+
+
+
+Cluster 4:
++----------------------------+
+|Number of words in cluster 4|
++----------------------------+
+|                         486|
++----------------------------+
+
++---------------+
+|Cluster 4 words|
++---------------+
+|         virtue|
+|          mbeki|
+|         Murder|
+|          rates|
+...
++---------------+
+
+Model evaluation:
+
+	Silhouette with squared euclidean distance: 0.48074769822591146 ([-1, 1])
+	Within Set Sum of Squared Errors: 4143810.344662394
 ```
